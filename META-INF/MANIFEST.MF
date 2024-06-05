@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bola
+Bundle-SymbolicName: hongji.bola;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.e4.ui.model.workbench;bundle-version="2.4.200",
+ org.eclipse.equinox.registry
+Automatic-Module-Name: hongji.bola
+Bundle-RequiredExecutionEnvironment: JavaSE-21
