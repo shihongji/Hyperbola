@@ -24,7 +24,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
         configurer.setInitialSize(new Point(800, 600));
         // The menu bar is shown only if it contains menu items
         configurer.setShowMenuBar(true);
-        configurer.setShowCoolBar(false);
+        configurer.setShowCoolBar(true);
         configurer.setShowStatusLine(false);
         configurer.setTitle("Hyperbola"); //$NON-NLS-1$
     }
