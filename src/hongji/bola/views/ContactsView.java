@@ -9,7 +9,7 @@ import org.eclipse.ui.model.BaseWorkbenchContentProvider;
 import org.eclipse.ui.model.WorkbenchLabelProvider;
 import org.eclipse.ui.part.ViewPart;
 
-import hongji.bola.HyperbolaAdapterFactory;
+import hongji.bola.contacts.HyperbolaAdapterFactory;
 import hongji.bola.model.Contact;
 import hongji.bola.model.ContactsEntry;
 import hongji.bola.model.ContactsGroup;

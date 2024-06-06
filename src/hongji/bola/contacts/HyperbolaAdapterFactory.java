@@ -1,4 +1,4 @@
-package hongji.bola;
+package hongji.bola.contacts;
 
 import org.eclipse.core.runtime.IAdapterFactory;
 import org.eclipse.jface.resource.ImageDescriptor;
@@ -8,6 +8,7 @@ import org.eclipse.ui.plugin.AbstractUIPlugin;
 import hongji.bola.model.ContactsGroup;
 import hongji.bola.model.Presence;
 import hongji.bola.model.ContactsEntry;
+import hongji.bola.Application;
 import hongji.bola.model.Contact;
 
 public class HyperbolaAdapterFactory implements IAdapterFactory {
@@ -70,6 +71,10 @@ public class HyperbolaAdapterFactory implements IAdapterFactory {
 		}
 	};
 
+	/**
+	 * Type safe way to get an adapter
+     * Dynamically cast the adaptable object to the adapter type
+	 */
 	@Override
 	public <T> T getAdapter(Object adaptableObject, Class<T> adapterType) {
 		// TODO Auto-generated method stub
