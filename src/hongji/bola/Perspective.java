@@ -9,7 +9,7 @@ public class Perspective implements IPerspectiveFactory {
 
 	@Override	
 	public void createInitialLayout(IPageLayout layout) {
-		layout.setEditorAreaVisible(true);
+		layout.setEditorAreaVisible(false);
 		layout.addView(ContactsView.ID, IPageLayout.LEFT, 0.4f, layout.getEditorArea());
 //		layout.addStandaloneView(ContactsView.ID, true, IPageLayout.LEFT, 0.4f, layout.getEditorArea());
 	}
